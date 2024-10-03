@@ -1,10 +1,40 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 
 img {
   width: 100px;
   height: 100px;
+}
+
+.wrapper,
+.plant-wrap,
+.plant {
+  display: flex;
+}
+
+.wrapper,
+.plant {
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper {
+  width: 100%;
+  gap: 32px;
+}
+
+.plant-wrap {
+  gap: 52px;
+}
+
+.plant {
+  width: 200px;
+}
+
+.text {
+  flex: 0 0 auto;
 }
 
 .title {
